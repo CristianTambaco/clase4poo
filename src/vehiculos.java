@@ -4,6 +4,8 @@ public class vehiculos {
     String modelo;
     int anio;
     String color;
+    String estado;
+    String tamanio;
 
     //metodo constructor con 3 atributos
     public vehiculos(String modelo, int anio, String color){
@@ -17,6 +19,14 @@ public class vehiculos {
         this.modelo = modelo;
     }
 
+
+    public vehiculos(String modelo, int anio, String color, String estado, String tamanio){
+        this.modelo = modelo;
+        this.anio = anio;
+        this.color = color;
+        this.estado = estado;
+        this.tamanio = tamanio;
+    }
 
 
 
@@ -32,6 +42,15 @@ public class vehiculos {
 
     public void imprimirm(){
         System.out.println("El modelo es: "+ modelo);
+
+    }
+
+    public void imprimir5(){
+        System.out.println("El modelo es: "+ modelo +
+                ", el anio del vehículo es "+ anio +
+                ", el color del vehículo es " + color +
+                ", el estado es " + estado +
+                ", el tamanio es " + tamanio);
 
     }
 
