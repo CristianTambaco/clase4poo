@@ -7,6 +7,8 @@ public class vehiculos {
     String estado;
     String tamanio;
 
+
+
     //metodo constructor con 3 atributos
     public vehiculos(String modelo, int anio, String color){
         this.modelo = modelo;
@@ -18,6 +20,7 @@ public class vehiculos {
     public vehiculos(String modelo){
         this.modelo = modelo;
     }
+
 
 
     public vehiculos(String modelo, int anio, String color, String estado, String tamanio){
@@ -53,6 +56,7 @@ public class vehiculos {
                 ", el tamanio es " + tamanio);
 
     }
+
 
 
 
