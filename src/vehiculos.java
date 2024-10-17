@@ -12,13 +12,30 @@ public class vehiculos {
         this.color = color;
     }
 
+
+    public vehiculos(String modelo){
+        this.modelo = modelo;
+    }
+
+
+
+
+
+
     //metodo vacío, no devuelve nada
     public void imprimir(){
         System.out.println("El modelo es: "+ modelo +
-                           ", el anio del vehículo es "+ anio +
-                           ", el color del vehículo es " + color);
+                ", el anio del vehículo es "+ anio +
+                ", el color del vehículo es " + color);//2 atributos más
 
     }
+
+    public void imprimirm(){
+        System.out.println("El modelo es: "+ modelo);
+
+    }
+
+
 
     //vehiculo del metodo constructor, aqui es donde se crean los objetos
     public static void main(String[] args) {
